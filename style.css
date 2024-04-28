@@ -1,0 +1,17 @@
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  /* opacity: 0;
+  transition: opacity 1s ease-in-out; */
+}
